@@ -26,9 +26,9 @@
    `git clone https://github.com/yourusername/assetboardai.git`
 
 2. Load schema and data  
-psql -f schema.sql
-psql -f seed_data.sql
+- psql -f schema.sql
+- psql -f seed_data.sql
 
 3. Run analyses  
-psql -f kpi_metrics.sql
-psql -f dashboard_views.sql
+- psql -f kpi_metrics.sql
+- psql -f dashboard_views.sql
